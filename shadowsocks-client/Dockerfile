@@ -7,7 +7,7 @@ go get github.com/langzhenjun/shadowsocks-go/cmd/shadowsocks-local && \
 mkdir /shadowsocks-local
 
 WORKDIR /shadowsocks-local
-COPY *.json $PWD/
+COPY *.json /shadowsocks-local/
 
 EXPOSE 8081
 

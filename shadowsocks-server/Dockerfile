@@ -7,7 +7,7 @@ go get github.com/langzhenjun/shadowsocks-go/cmd/shadowsocks-server && \
 mkdir /shadowsocks-server
 
 WORKDIR /shadowsocks-server
-COPY *.json $PWD/
+COPY *.json /shadowsocks-server/
 EXPOSE 8080
 
 ENTRYPOINT ["shadowsocks-server"]
