@@ -1,11 +1,10 @@
 FROM golang:alpine
 
-ADD https://github.com/golang/net/archive/master.zip $GOPATH/src/golang.org/x/net
-ADD https://github.com/golang/crypto/archive/master.zip $GOPATH/src/golang.org/x/crypto
-
 RUN apk update && \
 apk upgrade && \
 apk add --no-cache git && \ 
+git clone https://github.com/golang/net.git $GOPATH/src/golang.org/x/net && \
+git clone https://github.com/golang/crypto.git $GOPATH/src/golang.org/x/crypto && \
 go get github.com/langzhenjun/shadowsocks-go/cmd/shadowsocks-server
 
 EXPOSE 8080
