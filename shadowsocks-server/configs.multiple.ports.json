@@ -1,0 +1,9 @@
+{
+    "server": "127.0.0.1",
+    "port_password": {
+		"8090": "bOZqSGfxHkahFGSJ4/9KmMapZTUmEaYInRMXLdI0AiSMuPfmVBKvd2SStaXLNK9oj+nKu4zXyupuy/F3yeRKhQ==",
+		"8091": "Cf6P2YtMhBSSpgcvkO4LRM22z6qmvC1IF8gotUg8Et9isje8Xu3Yny1fnyZbcLioNOWMieSrda8l8G7pFxi4+A=="
+	},
+    "method": "aes-256-cfb",
+    "timeout": 600
+}

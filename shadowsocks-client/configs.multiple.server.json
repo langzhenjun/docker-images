@@ -1,0 +1,7 @@
+{
+    "server_password": [
+		["127.0.0.1:8090", "Cf6P2YtMhBSSpgcvkO4LRM22z6qmvC1IF8gotUg8Et9isje8Xu3Yny1fnyZbcLioNOWMieSrda8l8G7pFxi4+A=="],
+		["127.0.0.1:8091", "rjFoaJbak1IVVjZtExcwCuaaxHwzgcIj70fjmu4U6FGGqs7DtNbLeazPH8D6C8Ulc6EaZjxqP09KVRuA//SyTQ==", "aes-128-cfb"]
+	],
+    "local_port": 8081
+}

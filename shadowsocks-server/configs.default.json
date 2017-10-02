@@ -1,0 +1,7 @@
+{
+    "server": "localhost",
+    "server_port": 8080,
+    "method": "aes-256-cfb",
+    "password": "28iE1i1tled+iHXxzohyPee2o7B6Leso2q1lWwEKkUcMGE8NaHL614tl/0wVgGG4yBGVpcTaSVENwyFvIa6eIA==",
+    "timeout": 600
+}
