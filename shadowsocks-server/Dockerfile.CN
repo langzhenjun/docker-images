@@ -5,7 +5,11 @@ apk upgrade && \
 apk add --no-cache git && \ 
 git clone https://github.com/golang/net.git $GOPATH/src/golang.org/x/net && \
 git clone https://github.com/golang/crypto.git $GOPATH/src/golang.org/x/crypto && \
-go get github.com/langzhenjun/shadowsocks-go/cmd/shadowsocks-server
+go get github.com/langzhenjun/shadowsocks-go/cmd/shadowsocks-server && \
+mkdir /shadowsocks-server
+
+WORKDIR /shadowsocks-server
+COPY *.json $PWD/
 
 EXPOSE 8080
 
